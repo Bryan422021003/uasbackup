@@ -13,65 +13,62 @@
                 </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-lg-3 col-6">
-                    <div class="header-right-items content__hidden d-none d-md-block">
-                        <span class="phone-number font-lg-p" title="Call us for fast delivery">
-                            <a href="#cfd" style="color: #ffffff; font-size: 18px; text-decoration: none; transition: color 0.3s ease;"><i class="icon-telephone"></i>&nbsp;&nbsp;<small class="text-color-primary"><b>+(62) 85212345678</b></small></a>
-                        </span>
-                    </div>
-                    <div class="logo__hidden text-start">
-                        <a href="{{route('home')}}"><img src="{{asset('assets/images/logo/logo.png')}}" alt="" style="height:40px;"></a>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-none d-lg-block">
-                    <!-- navigation menu -->
-                    <div class="header__navigation d-none d-lg-block">
-                        <nav class="navigation-menu">
-                            <ul class="justify-content-center" style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
-                                <li style="margin: 0 20px;">
-                                    <a href="{{route('home')}}" style="text-decoration: none; color: #ffffff; font-size: 18px; font-weight: 600; text-transform: uppercase; position: relative; padding: 10px 0; transition: color 0.3s ease;"><span>Home</span></a>
-                                </li>
-                                <li style="margin: 0 20px;">
-                                    <a href="{{route('plp')}}" style="text-decoration: none; color: #ffffff; font-size: 18px; font-weight: 600; text-transform: uppercase; position: relative; padding: 10px 0; transition: color 0.3s ease;"><span>Shop</span></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-6">
-                    <div class="header-right-side text-end">
-                        <div class="header-right-items d-none d-md-block">
-                            <a href="#wishlist" class="header-cart" style="text-decoration: none; color: #ffffff; font-size: 18px; margin-left: 20px; position: relative;">
-                                <i class="icon-heart"></i>
-                                <span class="item-counter" style="position: absolute; top: -5px; right: -10px; background-color: #ff4081; color: #fff; border-radius: 50%; padding: 2px 6px; font-size: 12px; font-weight: 700;">3</span>
-                            </a>
+                <div class="col-lg-12 col-12">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <!-- Phone Number -->
+                            <div class="header-right-items content__hidden d-none d-md-block">
+                                <span class="phone-number font-lg-p" title="Call us for fast delivery">
+                                    <a href="#cfd" style="color: #ffffff; font-size: 18px; text-decoration: none; transition: color 0.3s ease;"><i class="icon-telephone"></i>&nbsp;&nbsp;<small class="text-color-primary"><b>+(62) 85212345678</b></small></a>
+                                </span>
+                            </div>
+                            <!-- Navigation Menu -->
+                            <nav class="navigation-menu d-none d-lg-block ms-4">
+                                <ul class="justify-content-center" style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+                                    <li style="margin: 0 20px;">
+                                        <a href="{{route('home')}}" style="text-decoration: none; color: #ffffff; font-size: 18px; font-weight: 600; text-transform: uppercase; position: relative; padding: 10px 0; transition: color 0.3s ease;"><span>Home</span></a>
+                                    </li>
+                                    <li style="margin: 0 20px;">
+                                        <a href="{{route('plp')}}" style="text-decoration: none; color: #ffffff; font-size: 18px; font-weight: 600; text-transform: uppercase; position: relative; padding: 10px 0; transition: color 0.3s ease;"><span>Shop</span></a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
-                        <div class="header-right-items">
-                            <a href="#minicart" class="header-cart" style="text-decoration: none; color: #ffffff; font-size: 18px; margin-left: 20px; position: relative;">
-                                <i class="icon-bag2"></i>
-                                <span class="item-counter" style="position: absolute; top: -5px; right: -10px; background-color: #ff4081; color: #fff; border-radius: 50%; padding: 2px 6px; font-size: 12px; font-weight: 700;">3</span>
-                            </a>
-                        </div>
-                        <div class="header-right-items d-none d-md-block">
-                            @if(@$_COOKIE['ut'])
-                                <div class="dropdown">
-                                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="text-decoration: none; color: #ffffff; font-size: 18px;">
-                                        Hello, {{ucwords(substr($_COOKIE['ue'], 0, 3))}}
-                                    </a>
-                                    <ul class="dropdown-menu" style="background-color: #ffffff; border: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 10px; border-radius: 4px;">
-                                        <li style="list-style: none;">
-                                            <a href="#my-profile" style="color: #333; padding: 10px 20px; display: block; text-decoration: none; transition: background-color 0.3s ease;">My Profile</a>
-                                        </li>
-                                        <li style="list-style: none;">
-                                            <a href="#" id="logout-btn" style="color: #333; padding: 10px 20px; display: block; text-decoration: none; transition: background-color 0.3s ease;">Logout</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            @else
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#authModal" style="text-decoration: none; color: #ffffff; font-size: 18px; margin-left: 20px;">
-                                    <i class="icon-user"></i>
+                        <!-- Right Side Icons -->
+                        <div class="header-right-side text-end">
+                            <div class="header-right-items d-none d-md-block">
+                                <a href="#wishlist" class="header-cart" style="text-decoration: none; color: #ffffff; font-size: 18px; margin-left: 20px; position: relative;">
+                                    <i class="icon-heart"></i>
+                                    <span class="item-counter" style="position: absolute; top: -5px; right: -10px; background-color: #ff4081; color: #fff; border-radius: 50%; padding: 2px 6px; font-size: 12px; font-weight: 700;">3</span>
                                 </a>
-                            @endif
+                            </div>
+                            <div class="header-right-items">
+                                <a href="#minicart" class="header-cart" style="text-decoration: none; color: #ffffff; font-size: 18px; margin-left: 20px; position: relative;">
+                                    <i class="icon-bag2"></i>
+                                    <span class="item-counter" style="position: absolute; top: -5px; right: -10px; background-color: #ff4081; color: #fff; border-radius: 50%; padding: 2px 6px; font-size: 12px; font-weight: 700;">3</span>
+                                </a>
+                            </div>
+                            <div class="header-right-items d-none d-md-block">
+                                @if(@$_COOKIE['ut'])
+                                    <div class="dropdown">
+                                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="text-decoration: none; color: #ffffff; font-size: 18px;">
+                                            Hello, {{ucwords(substr($_COOKIE['ue'], 0, 3))}}
+                                        </a>
+                                        <ul class="dropdown-menu" style="background-color: #ffffff; border: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-top: 10px; border-radius: 4px;">
+                                            <li style="list-style: none;">
+                                                <a href="#my-profile" style="color: #333; padding: 10px 20px; display: block; text-decoration: none; transition: background-color 0.3s ease;">My Profile</a>
+                                            </li>
+                                            <li style="list-style: none;">
+                                                <a href="#" id="logout-btn" style="color: #333; padding: 10px 20px; display: block; text-decoration: none; transition: background-color 0.3s ease;">Logout</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                @else
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#authModal" style="text-decoration: none; color: #ffffff; font-size: 18px; margin-left: 20px;">
+                                        <i class="icon-user"></i>
+                                    </a>
+                                @endif
+                            </div>
                         </div>
                     </div>
                 </div>

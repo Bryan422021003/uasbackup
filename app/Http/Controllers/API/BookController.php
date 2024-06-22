@@ -12,14 +12,14 @@ use OpenApi\Annotations as OA;
 /**
  * Class BookController.
  *
- * @author  bryan <bryan.422021003@ukrida.ac.id>
+ * @author  Bryan <Bryan.422021003@civitas.ukrida.ac.id>
  */
 class BookController extends Controller
 {
     /**
      * @OA\Get(
-     *     path="/api/clothes",
-     *     tags={"clothes"},
+     *     path="/api/book",
+     *     tags={"book"},
      *     summary="Display a listing of items",
      *     operationId="index",
      *     @OA\Response(
@@ -151,10 +151,10 @@ class BookController extends Controller
      *         description="Request body description",
      *         @OA\JsonContent(
      *             ref="#/components/schemas/Book",
-     *             example={"title": "Eating Clean", "author": "Inge Tumiwa-Bachrens", "publisher": "Kawan Pustaka", "publication_year": "2016", 
-     *                      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/book/1482170055i/33511107.jpg", 
-     *                      "description": "Menjadi sehat adalah impian semua orang. Makanan yang selama ini kita pikir sehat ternyata belum tentu ‘sehat’ bagi tubuh kita.", 
-     *                      "price": 85000}
+     *             example={"title": "Crewneck Hitam Zara", "author": "Crewneck", "publisher": "Zara", "publication_year": "2016", 
+     *                      "cover": "https://static.zara.net/assets/public/55d3/13ac/378942d0b260/336016118b28/03854405814-p/03854405814-p.jpg?ts=1707483468461&w=563", 
+     *                      "description": "Pakaian ini memiliki tampilan unik yang disebabkan proses pencucian khusus. Karena itu, warnanya mungkin sedikit berbeda dibandingkan dengan foto..", 
+     *                      "price": 2300000}
      *         ),
      *     ),
      *     security={{"passport_token_ready":{},"passport":{}}}

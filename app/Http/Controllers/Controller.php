@@ -14,8 +14,8 @@ use OpenApi\Annotations as OA;
  *          }
  *      },
  *      @OA\Contact(
- *          name="Evelline UKRIDA",
- *          email="evelline.kristiani@ukrida.ac.id"
+ *          name="Bryan UKRIDA",
+ *          email="Bryan.422021003@civitas.ukrida.ac.id"
  *      ),
  * )
  */

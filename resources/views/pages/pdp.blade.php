@@ -42,12 +42,7 @@
                             </div>
 
                         </div>
-                        <div class="product-details-thumbs-2 slider-thumbs-2">
-                            <div class="sm-image"><img src="{{asset('assets/images/product/small/1-100x100.webp')}}" alt="product image thumb" class="product-img-main-src"></div>
-                            <div class="sm-image"><img src="{{asset('assets/images/product/small/2-100x100.webp')}}" alt="product image thumb"></div>
-                            <div class="sm-image"><img src="{{asset('assets/images/product/small/3-100x100.webp')}}" alt="product image thumb"></div>
-                            <div class="sm-image"><img src="{{asset('assets/images/product/small/4-100x100.webp')}}" alt="product image thumb"></div>
-                        </div>
+                        
                     </div>
                     <!--// Product Details Left -->
                 </div>
@@ -90,21 +85,6 @@
                                 </div>
                             </div>
 
-                        </div>
-
-                        <div class="product_meta mt-30">
-                            <div class="posted_in item_meta">
-                                <span class="label">Author: </span>
-                                <span id="product-author" class="text-color-primary"></span>
-                            </div>
-                            <div class="posted_in item_meta">
-                                <span class="label">Publisher: </span>
-                                <span id="product-publisher"></span>
-                            </div>
-                            <div class="tagged_as item_meta">
-                                <span class="label">Tag: </span>
-                                <span id="product-tags"></span>
-                            </div>
                         </div>
 
                         <div class="product_socials section-space--mt_60">

@@ -13,7 +13,7 @@ use OpenApi\Annotations as OA;
 /**
  * Class AuthController.
  *
- * @author  bryan <bryan.422021003@ukrida.ac.id>
+ * @author  Bryan <Bryan.422021003@ukrida.ac.id>
  */
 class AuthController extends Controller
 {
@@ -38,7 +38,7 @@ class AuthController extends Controller
      *         description="Request body description",
      *         @OA\JsonContent(
      *             ref="#/components/schemas/User",
-     *             example={"name": "Augusta Ada Byron", "email": "ada.lovelace@gmail.com", "password": "Ba88a93$", "password_confirmation": "Ba88a93$123"}
+     *             example={"name": "Bryan Ronaldo", "email": "manchesterunited@gmail.com", "password": "bryan123", "password_confirmation": "bryan123"}
      *         ),
      *     )
      * )

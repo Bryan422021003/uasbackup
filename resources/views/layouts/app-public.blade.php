@@ -8,7 +8,7 @@
         <meta name="keywords" content="ecommerce,book">
         <meta name="author" content="NIM-NAME">
 
-        <title>@yield('title') | NIM-NAME</title>
+        <title>@yield('title') | 422021003-Bryan Charity</title>
         <link rel="icon" type="image/x-icon" href="{{asset('assets/images/favicon.ico')}}">
         <!-- BEGIN: CSS Assets-->
         <link rel="stylesheet" type="text/css" href="{{asset('assets/css/vendor/bootstrap.min.css')}}">

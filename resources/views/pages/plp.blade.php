@@ -10,23 +10,23 @@
                 <div class="col-lg-3 col-md-3 order-md-1 order-2  small-mt__40">
                     <div class="shop-widget widget-shop-publishers mt-3">
                         <div class="product-filter">
-                            <h6 class="mb-20">Publishers</h6>
+                            <h6 class="mb-20">Brand</h6>
                             <select class="_filter form-select form-select-sm" name="_publisher" onchange="getData()">
                                 <option value="" selected>All</option>
-                                <option value="putnam">Putnam</option>
-                                <option value="harriman house">Harriman House</option>
-                                <option value="balai pustaka">Balai Pustaka</option>
-                                <option value="lentera dipantara">Lentera Dipantara</option>
-                                <option value="pan books">Pan Books</option>
-                                <option value="firefly books">Firefly Books</option>
-                                <option value="gramedia">Gramedia</option>
-                                <option value="scholastic">Scholastic</option>
-                                <option value="harper">Harper</option>
-                                <option value="dk children">DK Children</option>
-                                <option value="bentang pustaka">Bentang Pustaka</option>
-                                <option value="gagas media">Gagas Media</option>
-                                <option value="grasindo">Grasindo</option>
-                                <option value="marjin kiri">Marjin Kiri</option>
+                                <option value="putnam">Zara</option>
+                                <option value="harriman house">Calvin Klein</option>
+                                <option value="balai pustaka">HNM</option>
+                                <option value="lentera dipantara">Nike</option>
+                                <option value="pan books">Addidas</option>
+                                <option value="firefly books">NewBalance</option>
+                                <option value="gramedia">Giordano</option>
+                                <option value="scholastic">Polo</option>
+                                <option value="harper">LODAWS</option>
+                                <option value="dk children">Childsa</option>
+                                <option value="bentang pustaka">Okeasc</option>
+                                <option value="gagas media">Goeans</option>
+                                <option value="grasindo">PSG</option>
+                                <option value="marjin kiri">UNIQLO</option>
                             </select>
                         </div>
                     </div>
@@ -63,23 +63,23 @@
                             <h6 class="mb-20">Tags</h6>
                             <div class="blog-tagcloud">
                                 <a href="#" class="selected">Book</a>
-                                <a href="#">EBook</a>
-                                <a href="#">Best Seller</a>
-                                <a href="#">Fiction</a>
-                                <a href="#">Education</a>
-                                <a href="#">Literature</a>
-                                <a href="#">Classics</a>
-                                <a href="#">Real Event</a>
-                                <a href="#">Young Adult</a>
-                                <a href="#">Religion</a>
-                                <a href="#">Health</a>
-                                <a href="#">Comic</a>
-                                <a href="#">Horror</a>
-                                <a href="#">Poem</a>
-                                <a href="#">Filmed</a>
-                                <a href="#">Encyclopedia</a>
-                                <a href="#">In English</a>
-                                <a href="#">In Indonesian</a>
+                                <a href="#">Dress</a>
+                                <a href="#">Blazer</a>
+                                <a href="#">MiniDress</a>
+                                <a href="#">Long Dress</a>
+                                <a href="#">Kemeja</a>
+                                <a href="#">Baju Polo</a>
+                                <a href="#">Baju Bola</a>
+                                <a href="#">Manchester United</a>
+                                <a href="#">Top Shirt</a>
+                                <a href="#">Croptop</a>
+                                <a href="#">Cardigan</a>
+                                <a href="#">Hoodie</a>
+                                <a href="#">Crewneck</a>
+                                <a href="#">Jacket</a>
+                                <a href="#">Topi</a>
+                                <a href="#">Jas</a>
+                                <a href="#">Tas</a>
                             </div>
                         </div>
                     </div>
